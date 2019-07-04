@@ -1,0 +1,151 @@
+body{
+    margin:0;
+    font-family:'Tangerine', serif;
+    background-color:#DFE2DB;
+}
+.logo{
+    float:left;
+    height: auto;
+    width:auto;
+}
+.navbar{
+    overflow:hidden;
+    background-color: #2B2B2B;
+    width:100%;
+    height:70px;    
+}
+.navul{
+    list-style-type: none;/*removes bullets*/
+    margin:0;
+    padding:0px 0 30px 0;
+    overflow:hidden;
+}
+.navul li a{
+    float:left;
+    display:block;
+    color:#f2f2f2;
+    text-align:center;
+    padding:30px 100px 30px 100px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navul li a:hover{/* ul ko li ko a */
+    background-color:#f77f7f;
+    color: #9b0404;
+}
+.navheader {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+.icon{
+    display:none;
+}
+@media screen and (max-width: 600px) {
+    /* media is used for defining rules . Here, use this css for screen width less than 600 px*/
+    .navul {
+     display: none;
+    }
+.navul li a {
+
+        float: none;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 25px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    .navheader {
+        float: none;
+        text-align: left;
+
+    }
+    .icon {
+        float: right;
+        display: block;
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        background: #ba3131;
+        border:0px;
+        color: white;
+        font-size:30px;
+
+    }
+    .icon:hover {
+        background: #f77f7f;
+    }
+}
+/*.footer{
+    background:#2B2B2B;
+    height:20px;
+    color:#f2f2f2;
+}*/
+.form{
+    margin:auto;
+    width:300px;
+    text-align: center;
+    font-size: 15px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding:20px;
+}
+input[type=submit]:hover{
+    background-color: #45a049;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+    
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align:center;
+}
+input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align:center;
+}
+.text{
+    text-align:center;
+    font-size:20px;
+}
+.h{
+    text-align: center;
+}
+table,tr,td{
+    border:1px solid black;
+}
+input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align:center;
+}
